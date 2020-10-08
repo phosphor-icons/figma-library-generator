@@ -1,0 +1,59 @@
+figma.showUI(__html__, { width: 362, height: 52 });
+
+let xOffset = 0;
+let yOffset = 0;
+let column = 0;
+
+figma.ui.onmessage = async ({ type, payload }) => {
+  switch (type) {
+    case "new-category":
+      await figma.loadFontAsync({ family: "Roboto", style: "Regular" });
+
+      xOffset = 0;
+      yOffset += 1;
+
+      const { category, icons } = payload;
+
+      const label = figma.createText();
+      label.characters = category;
+      label.y += yOffset++ * 64;
+
+      icons.forEach(({ name, svg }) => {
+        if (xOffset > 10) {
+          xOffset = 0;
+          yOffset += 1;
+        }
+
+        const component = figma.createComponent();
+        component.resize(32, 32);
+        component.x += xOffset++ * 64;
+        component.y = yOffset * 64;
+        component.name = name;
+
+        const node = figma.createNodeFromSvg(svg);
+        node.name = name;
+        node.constrainProportions = true;
+        
+        const group = figma.group(node.children, node);
+        group.name = name;
+        group.expanded = false;
+        group.constrainProportions = true;
+        group.children.forEach((child) => ungroup(child, group));
+        
+        component.appendChild(group);
+        node.remove();
+      });
+      break;
+  }
+};
+
+function ungroup(node: BaseNode, parent: GroupNode) {
+  if (node.type === "GROUP") {
+    node.children.forEach((grandchild) => {
+      ungroup(grandchild, parent);
+    });
+    return;
+  }
+
+  parent.appendChild(node);
+}
