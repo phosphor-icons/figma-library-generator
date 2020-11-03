@@ -3,11 +3,15 @@ figma.showUI(__html__, { width: 362, height: 52 });
 let xOffset = 0;
 let yOffset = 0;
 let column = 0;
+let fontLoaded = false
 
 figma.ui.onmessage = async ({ type, payload }) => {
   switch (type) {
     case "new-category":
-      await figma.loadFontAsync({ family: "Roboto", style: "Regular" });
+      if (!fontLoaded) {
+        await figma.loadFontAsync({ family: "Roboto", style: "Regular" });
+        fontLoaded = true;
+      }
 
       xOffset = 0;
       yOffset += 1;
@@ -19,7 +23,7 @@ figma.ui.onmessage = async ({ type, payload }) => {
       label.y += yOffset++ * 64;
 
       icons.forEach(({ name, svg }) => {
-        if (xOffset > 10) {
+        if (xOffset > 7) {
           xOffset = 0;
           yOffset += 1;
         }
