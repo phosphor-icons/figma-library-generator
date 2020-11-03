@@ -44,12 +44,9 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "fuse.js": "^6.4.1",
-    "phosphor-react": "^0.6.0",
+    "phosphor-react": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-dropdown-select": "^4.5.2",
-    "react-use": "^15.3.4",
     "recoil": "^0.0.13"
   }
 }
