@@ -17,21 +17,24 @@ const categorizedIcons = icons.reduce<CategorizedIcons>((acc, curr) => {
 }, {});
 
 const handleGenerateMulticategory = () => {
-  Object.entries(categorizedIcons).forEach(([category, icons]) => {
-    const iconObjects = icons.map(({ Icon: { displayName } }) => ({
-      name: displayName,
-      svg: document.querySelector(`[title="${displayName}"]`)?.innerHTML ?? "",
-    }));
-    parent.postMessage(
-      {
-        pluginMessage: {
-          type: "new-category",
-          payload: { category, icons: iconObjects },
+  Object.entries(categorizedIcons)
+    .sort(([categoryA], [categoryB]) => categoryA.localeCompare(categoryB))
+    .forEach(([category, icons]) => {
+      const iconObjects = icons.map(({ Icon: { displayName } }) => ({
+        name: displayName,
+        svg:
+          document.querySelector(`[title="${displayName}"]`)?.innerHTML ?? "",
+      }));
+      parent.postMessage(
+        {
+          pluginMessage: {
+            type: "new-category",
+            payload: { category, icons: iconObjects },
+          },
         },
-      },
-      "*"
-    );
-  });
+        "*"
+      );
+    });
 };
 
 type ToolbarProps = {};
