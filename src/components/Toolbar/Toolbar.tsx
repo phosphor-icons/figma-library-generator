@@ -9,10 +9,9 @@ import "./Toolbar.css";
 type CategorizedIcons = Partial<Record<IconCategory, IconEntry[]>>;
 
 const categorizedIcons = icons.reduce<CategorizedIcons>((acc, curr) => {
-  curr.categories.forEach((category) => {
-    if (!acc[category]) acc[category] = [];
-    acc[category]!!.push(curr);
-  });
+  const category = curr.category;
+  if (!acc[category]) acc[category] = [];
+  acc[category]!!.push(curr);
   return acc;
 }, {});
 

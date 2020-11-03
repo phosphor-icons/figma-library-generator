@@ -16,23 +16,22 @@ export enum IconCategory {
   COMMUNICATION = "communications",
   DESIGN = "design",
   DEVELOPMENT = "development",
-  OFFICE = "office",
-  EDITOR = "editor",
-  FINANCE = "finances",
   GAMES = "games",
   HEALTH = "health & wellness",
-  MAP = "maps & navigation",
+  MAP = "maps & transportation",
+  FINANCE = "math & finances",
   MEDIA = "media",
-  NATURE = "nature",
-  OBJECTS = "objects",
+  OFFICE = "office",
   PEOPLE = "people",
+  SECURITY = "security & warnings",
   SYSTEM = "system",
-  WEATHER = "weather",
+  TIME = "time & date",
+  WEATHER = "weather & nature",
 }
 
 export interface IconEntry {
   name: string;
-  categories: IconCategory[];
+  category: IconCategory;
   tags: string[];
   Icon: Icon;
 }

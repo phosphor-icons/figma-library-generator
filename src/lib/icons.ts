@@ -1,16 +1,16 @@
 import * as Icon from "phosphor-react";
-import { IconEntry, IconCategory } from ".";
+import { IconCategory, IconEntry } from ".";
 
 export const icons: ReadonlyArray<IconEntry> = [
   {
     name: "activity",
-    categories: [IconCategory.HEALTH],
+    category: IconCategory.HEALTH,
     tags: ["heartbeat", "medical", "ecg", "ekg", "vitals", "monitor"],
     Icon: Icon.Activity,
   },
   {
     name: "airplane",
-    categories: [IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.MAP,
     tags: [
       "vehicles",
       "airports",
@@ -25,36 +25,31 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "airplay",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["apple", "screencasting", "television", "tv"],
     Icon: Icon.Airplay,
   },
   {
     name: "alarm",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.TIME,
     tags: ["times", "timer", "clock", "schedule", "events", "watch"],
     Icon: Icon.Alarm,
   },
   {
     name: "android-logo",
-    categories: [
-      IconCategory.BRAND,
-      IconCategory.DEVELOPMENT,
-
-      IconCategory.SYSTEM,
-    ],
+    category: IconCategory.BRAND,
     tags: ["logos", "google", "mobile", "phone", "cellular", "cellphone"],
     Icon: Icon.AndroidLogo,
   },
   {
     name: "aperture",
-    categories: [IconCategory.DESIGN, IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["photography", "cameras", "pictures", "lens"],
     Icon: Icon.Aperture,
   },
   {
     name: "archive",
-    categories: [IconCategory.OFFICE, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: [
       "saved",
       "saving",
@@ -68,7 +63,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "archive-box",
-    categories: [IconCategory.OFFICE, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: [
       "saved",
       "saving",
@@ -82,7 +77,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "archive-tray",
-    categories: [IconCategory.OFFICE, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: [
       "saved",
       "saving",
@@ -96,223 +91,223 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrow-up",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowUp,
   },
   {
     name: "arrow-down",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowDown,
   },
   {
     name: "arrow-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowLeft,
   },
   {
     name: "arrow-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowRight,
   },
   {
     name: "arrow-up-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowUpLeft,
   },
   {
     name: "arrow-up-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowUpRight,
   },
   {
     name: "arrow-down-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowDownLeft,
   },
   {
     name: "arrow-down-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowDownRight,
   },
   {
     name: "arrow-circle-up",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowCircleUp,
   },
   {
     name: "arrow-circle-down",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowCircleDown,
   },
   {
     name: "arrow-circle-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowCircleLeft,
   },
   {
     name: "arrow-circle-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowCircleRight,
   },
   {
     name: "arrow-circle-up-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowCircleUpLeft,
   },
   {
     name: "arrow-circle-up-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowCircleUpRight,
   },
   {
     name: "arrow-circle-down-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowCircleDownLeft,
   },
   {
     name: "arrow-circle-down-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowCircleDownRight,
   },
   {
     name: "arrow-square-up",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowSquareUp,
   },
   {
     name: "arrow-square-down",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowSquareDown,
   },
   {
     name: "arrow-square-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowSquareLeft,
   },
   {
     name: "arrow-square-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowSquareRight,
   },
   {
     name: "arrow-square-up-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowSquareUpLeft,
   },
   {
     name: "arrow-square-up-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowSquareUpRight,
   },
   {
     name: "arrow-square-down-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowSquareDownLeft,
   },
   {
     name: "arrow-square-down-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowSquareDownRight,
   },
   {
     name: "arrow-arc-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowArcLeft,
   },
   {
     name: "arrow-arc-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowArcRight,
   },
   {
     name: "arrow-bend-left-up",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowBendLeftUp,
   },
   {
     name: "arrow-bend-right-up",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowBendRightUp,
   },
   {
     name: "arrow-bend-left-down",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowBendLeftDown,
   },
   {
     name: "arrow-bend-right-down",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowBendRightDown,
   },
   {
     name: "arrow-bend-up-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowBendUpLeft,
   },
   {
     name: "arrow-bend-down-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowBendDownLeft,
   },
   {
     name: "arrow-bend-up-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowBendUpRight,
   },
   {
     name: "arrow-bend-down-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowBendDownRight,
   },
   {
     name: "arrow-bend-double-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowBendDoubleUpLeft,
   },
   {
     name: "arrow-bend-double-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowBendDoubleUpRight,
   },
   {
     name: "arrow-clockwise",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -325,7 +320,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrow-counter-clockwise",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -338,116 +333,116 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrow-elbow-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowElbowLeft,
   },
   {
     name: "arrow-elbow-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowElbowRight,
   },
   {
     name: "arrow-elbow-left-up",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowElbowLeftUp,
   },
   {
     name: "arrow-elbow-right-up",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowElbowRightUp,
   },
   {
     name: "arrow-elbow-left-down",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowElbowLeftDown,
   },
   {
     name: "arrow-elbow-right-down",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowElbowRightDown,
   },
   {
     name: "arrow-elbow-up-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowElbowUpLeft,
   },
   {
     name: "arrow-elbow-down-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowElbowDownLeft,
   },
   {
     name: "arrow-elbow-up-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowElbowUpRight,
   },
   {
     name: "arrow-elbow-down-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowElbowDownRight,
   },
   {
     name: "arrow-line-up",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowLineUp,
   },
   {
     name: "arrow-line-down",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowLineDown,
   },
   {
     name: "arrow-line-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowLineLeft,
   },
   {
     name: "arrow-line-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowLineRight,
   },
   {
     name: "arrow-line-up-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowLineUpLeft,
   },
   {
     name: "arrow-line-up-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowLineUpRight,
   },
   {
     name: "arrow-line-down-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowLineDownLeft,
   },
   {
     name: "arrow-line-down-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowLineDownRight,
   },
 
   {
     name: "arrow-u-left-up",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -460,7 +455,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrow-u-right-up",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -473,7 +468,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrow-u-left-down",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -487,7 +482,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrow-u-right-down",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -501,7 +496,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrow-u-up-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -515,7 +510,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrow-u-down-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -529,7 +524,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrow-u-up-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -542,7 +537,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrow-u-down-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -555,7 +550,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrows-clockwise",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -570,7 +565,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrows-counter-clockwise",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -583,19 +578,19 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrows-down-up",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowsDownUp,
   },
   {
     name: "arrows-left-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.ArrowsLeftRight,
   },
   {
     name: "arrows-in",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -608,7 +603,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrows-in-cardinal",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -622,7 +617,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrows-in-simple",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -636,7 +631,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrows-out",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -650,7 +645,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrows-out-cardinal",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -665,7 +660,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "arrows-out-simple",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: [
       "directional",
       "pointer",
@@ -679,7 +674,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "article",
-    categories: [IconCategory.MEDIA, IconCategory.OBJECTS],
+    category: IconCategory.MEDIA,
     tags: [
       "reading",
       "writing",
@@ -692,37 +687,37 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "asterisk",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["star", "wildcard", "bullet point", "6"],
     Icon: Icon.Asterisk,
   },
   {
     name: "at",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["@", "address", "email", "at symbol", "commercial at", "arobase"],
     Icon: Icon.At,
   },
   {
     name: "backspace",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["keyboard", "remove", "delete"],
     Icon: Icon.Backspace,
   },
   {
     name: "bag",
-    categories: [IconCategory.COMMERCE, IconCategory.OBJECTS],
+    category: IconCategory.COMMERCE,
     tags: ["suitcases", "valises", "baggage", "folders", "portfolios"],
     Icon: Icon.Bag,
   },
   {
     name: "bandaids",
-    categories: [IconCategory.HEALTH],
+    category: IconCategory.HEALTH,
     tags: ["bandages", "medical", "first aid", "injury"],
     Icon: Icon.Bandaids,
   },
   {
     name: "bank",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "banking",
       "checking",
@@ -736,7 +731,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "barbell",
-    categories: [IconCategory.HEALTH],
+    category: IconCategory.HEALTH,
     tags: [
       "weights",
       "dumbbells",
@@ -749,67 +744,67 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "barcode",
-    categories: [IconCategory.COMMERCE, IconCategory.SYSTEM],
+    category: IconCategory.COMMERCE,
     tags: ["upc", "qr", "products", "shopping", "scanner"],
     Icon: Icon.Barcode,
   },
   {
     name: "battery-charging",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["charged", "charger", "charging", "power"],
     Icon: Icon.BatteryCharging,
   },
   {
     name: "battery-charging-vertical",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["charged", "charger", "charging", "power"],
     Icon: Icon.BatteryChargingVertical,
   },
   {
     name: "battery-full",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["charged", "charger", "charging", "power", "filled"],
     Icon: Icon.BatteryFull,
   },
   {
     name: "battery-high",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["charged", "charger", "charging", "power"],
     Icon: Icon.BatteryHigh,
   },
   {
     name: "battery-medium",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["charged", "charger", "charging", "power"],
     Icon: Icon.BatteryMedium,
   },
   {
     name: "battery-low",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["charged", "charger", "charging", "power"],
     Icon: Icon.BatteryLow,
   },
   {
     name: "battery-empty",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["charged", "charger", "charging", "power", "dead"],
     Icon: Icon.BatteryEmpty,
   },
   {
     name: "battery-warning",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["charged", "charger", "charging", "power", "empty", "critical"],
     Icon: Icon.BatteryWarning,
   },
   {
     name: "battery-warning-vertical",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["charged", "charger", "charging", "power", "empty", "critical"],
     Icon: Icon.BatteryWarningVertical,
   },
   {
     name: "bed",
-    categories: [IconCategory.HEALTH, IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.HEALTH,
     tags: [
       "hotels",
       "accommodations",
@@ -822,7 +817,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "bell",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "alarm",
       "notifications",
@@ -838,7 +833,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "bell-slash",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "alarm",
       "notifications",
@@ -857,7 +852,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "bell-simple",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "alarm",
       "notifications",
@@ -873,7 +868,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "bell-simple-slash",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "alarm",
       "notifications",
@@ -891,7 +886,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "bicycle",
-    categories: [IconCategory.HEALTH, IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.MAP,
     tags: [
       "bikers",
       "bicycling",
@@ -906,19 +901,19 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "bluetooth",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["wireless", "connection", "connected", "connectivity"],
     Icon: Icon.Bluetooth,
   },
   {
     name: "bluetooth-connected",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["wireless", "connection", "connected", "connectivity"],
     Icon: Icon.BluetoothConnected,
   },
   {
     name: "bluetooth-slash",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "wireless",
       "connection",
@@ -930,19 +925,19 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "bluetooth-x",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["wireless", "connection", "connectivity", "disconnected", "errors"],
     Icon: Icon.BluetoothX,
   },
   {
     name: "book",
-    categories: [IconCategory.OFFICE, IconCategory.MEDIA, IconCategory.OBJECTS],
+    category: IconCategory.OFFICE,
     tags: ["reading", "reader", "novel", "story", "library"],
     Icon: Icon.Book,
   },
   {
     name: "book-bookmark",
-    categories: [IconCategory.OFFICE, IconCategory.MEDIA, IconCategory.OBJECTS],
+    category: IconCategory.OFFICE,
     tags: [
       "reading",
       "reader",
@@ -956,13 +951,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "book-open",
-    categories: [IconCategory.OFFICE, IconCategory.MEDIA, IconCategory.OBJECTS],
+    category: IconCategory.OFFICE,
     tags: ["reading", "reader", "novel", "story", "library"],
     Icon: Icon.BookOpen,
   },
   {
     name: "bookmark",
-    categories: [IconCategory.OFFICE, IconCategory.MEDIA, IconCategory.OBJECTS],
+    category: IconCategory.OFFICE,
     tags: [
       "reading",
       "reader",
@@ -977,7 +972,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "bookmark-simple",
-    categories: [IconCategory.OFFICE, IconCategory.MEDIA, IconCategory.OBJECTS],
+    category: IconCategory.OFFICE,
     tags: [
       "reading",
       "reader",
@@ -992,7 +987,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "bookmarks",
-    categories: [IconCategory.OFFICE, IconCategory.OBJECTS],
+    category: IconCategory.OFFICE,
     tags: [
       "reading",
       "reader",
@@ -1007,53 +1002,49 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "briefcase",
-    categories: [IconCategory.OFFICE, IconCategory.OBJECTS],
+    category: IconCategory.OFFICE,
     tags: ["suitcases", "valises", "baggage", "folders", "portfolios"],
     Icon: Icon.Briefcase,
   },
   {
     name: "briefcase-simple",
-    categories: [IconCategory.OFFICE, IconCategory.OBJECTS],
+    category: IconCategory.OFFICE,
     tags: ["suitcases", "valises", "baggage", "folders", "portfolios"],
     Icon: Icon.BriefcaseSimple,
   },
   {
     name: "broadcast",
-    categories: [
-      IconCategory.COMMUNICATION,
-      IconCategory.MEDIA,
-      IconCategory.SYSTEM,
-    ],
+    category: IconCategory.COMMUNICATION,
     tags: ["radio", "hotspot", "wifi", "emit"],
     Icon: Icon.Broadcast,
   },
   {
     name: "browser",
-    categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["web browsers", "windows", "internet", "chrome", "edge", "firefox"],
     Icon: Icon.Browser,
   },
   {
     name: "browsers",
-    categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["web browsers", "windows", "internet", "chrome", "edge", "firefox"],
     Icon: Icon.Browsers,
   },
   {
     name: "browsers-simple",
-    categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["web browsers", "windows", "internet", "chrome", "edge", "firefox"],
     Icon: Icon.BrowsersSimple,
   },
   {
     name: "buildings",
-    categories: [IconCategory.COMMERCE, IconCategory.MAP],
+    category: IconCategory.COMMERCE,
     tags: ["places", "locations"],
     Icon: Icon.Buildings,
   },
   {
     name: "bus",
-    categories: [IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.MAP,
     tags: [
       "vehicles",
       "public transit",
@@ -1067,147 +1058,147 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "calendar",
-    categories: [IconCategory.OFFICE, IconCategory.SYSTEM],
+    category: IconCategory.TIME,
     tags: ["dates", "times", "events", "schedule", "31"],
     Icon: Icon.Calendar,
   },
   {
     name: "calendar-blank",
-    categories: [IconCategory.OFFICE, IconCategory.SYSTEM],
+    category: IconCategory.TIME,
     tags: ["dates", "times", "events", "schedule", "none"],
     Icon: Icon.CalendarBlank,
   },
   {
     name: "calendar-x",
-    categories: [IconCategory.OFFICE, IconCategory.SYSTEM],
+    category: IconCategory.TIME,
     tags: ["dates", "times", "events", "schedule", "closed", "cancelled"],
     Icon: Icon.CalendarX,
   },
   {
     name: "camera",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["photography", "pictures", "lens"],
     Icon: Icon.Camera,
   },
   {
     name: "camera-slash",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["photography", "pictures", "lens", "disabled"],
     Icon: Icon.CameraSlash,
   },
   {
     name: "car",
-    categories: [IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.MAP,
 
     tags: ["cars", "vehicles", "transit", "transportation", "traveling"],
     Icon: Icon.Car,
   },
   {
     name: "car-simple",
-    categories: [IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.MAP,
     tags: ["cars", "vehicles", "transit", "transportation", "traveling"],
     Icon: Icon.CarSimple,
   },
   {
     name: "caret-up",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["chevron", "directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.CaretUp,
   },
   {
     name: "caret-down",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["chevron", "directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.CaretDown,
   },
   {
     name: "caret-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["chevron", "directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.CaretLeft,
   },
   {
     name: "caret-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["chevron", "directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.CaretRight,
   },
   {
     name: "caret-double-up",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["chevron", "directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.CaretDoubleUp,
   },
   {
     name: "caret-double-down",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["chevron", "directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.CaretDoubleDown,
   },
   {
     name: "caret-double-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["chevron", "directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.CaretDoubleLeft,
   },
   {
     name: "caret-double-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["chevron", "directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.CaretDoubleRight,
   },
   {
     name: "caret-circle-up",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["chevron", "directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.CaretCircleUp,
   },
   {
     name: "caret-circle-down",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["chevron", "directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.CaretCircleDown,
   },
 
   {
     name: "caret-circle-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["chevron", "directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.CaretCircleLeft,
   },
   {
     name: "caret-circle-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["chevron", "directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.CaretCircleRight,
   },
   {
     name: "caret-circle-double-up",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["chevron", "directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.CaretCircleDoubleUp,
   },
   {
     name: "caret-circle-double-down",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["chevron", "directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.CaretCircleDoubleDown,
   },
   {
     name: "caret-circle-double-left",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["chevron", "directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.CaretCircleDoubleLeft,
   },
   {
     name: "caret-circle-double-right",
-    categories: [IconCategory.ARROWS],
+    category: IconCategory.ARROWS,
     tags: ["chevron", "directional", "pointer", "pointing", "arrowhead"],
     Icon: Icon.CaretCircleDoubleRight,
   },
   {
     name: "cell-signal-full",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "wireless",
       "cellular",
@@ -1222,7 +1213,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "cell-signal-high",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "wireless",
       "cellular",
@@ -1237,7 +1228,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "cell-signal-medium",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "wireless",
       "cellular",
@@ -1252,7 +1243,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "cell-signal-low",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "wireless",
       "cellular",
@@ -1267,7 +1258,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "cell-signal-none",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "wireless",
       "cellular",
@@ -1282,7 +1273,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "cell-signal-slash",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "wireless",
       "cellular",
@@ -1299,7 +1290,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "cell-signal-x",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "wireless",
       "cellular",
@@ -1316,221 +1307,221 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "chart-bar",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: ["graphs", "graphing", "charts", "histogram", "analyze", "analysis"],
     Icon: Icon.ChartBar,
   },
   {
     name: "chart-bar-horizontal",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: ["graphs", "graphing", "charts", "histogram", "analyze", "analysis"],
     Icon: Icon.ChartBarHorizontal,
   },
   {
     name: "chart-line",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: ["graphs", "graphing", "charts", "analyze", "analysis"],
     Icon: Icon.ChartLine,
   },
   {
     name: "chart-line-up",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: ["graphs", "graphing", "charts", "analyze", "analysis"],
     Icon: Icon.ChartLineUp,
   },
   {
     name: "chart-pie",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: ["graphs", "graphing", "charts", "circle", "analyze", "analysis"],
     Icon: Icon.ChartPie,
   },
   {
     name: "chart-pie-slice",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: ["graphs", "graphing", "charts", "circle", "analyze", "analysis"],
     Icon: Icon.ChartPieSlice,
   },
   {
     name: "chat",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["send", "sent", "messages", "messaging", "sms", "texting", "square"],
     Icon: Icon.Chat,
   },
   {
     name: "chat-dots",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["send", "sent", "messages", "messaging", "sms", "texting", "square"],
 
     Icon: Icon.ChatDots,
   },
   {
     name: "chat-text",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["send", "sent", "messages", "messaging", "sms", "texting", "square"],
 
     Icon: Icon.ChatText,
   },
   {
     name: "chats",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["send", "sent", "messages", "messaging", "sms", "texting", "square"],
 
     Icon: Icon.Chats,
   },
   {
     name: "chat-centered",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["send", "sent", "messages", "messaging", "sms", "texting", "square"],
     Icon: Icon.ChatCentered,
   },
   {
     name: "chat-centered-dots",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["send", "sent", "messages", "messaging", "sms", "texting", "square"],
     Icon: Icon.ChatCenteredDots,
   },
   {
     name: "chat-centered-text",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["send", "sent", "messages", "messaging", "sms", "texting", "square"],
     Icon: Icon.ChatCenteredText,
   },
   {
     name: "chat-circle",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["send", "sent", "messages", "messaging", "sms", "texting", "round"],
     Icon: Icon.ChatCircle,
   },
   {
     name: "chat-circle-dots",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["send", "sent", "messages", "messaging", "sms", "texting", "round"],
     Icon: Icon.ChatCircleDots,
   },
   {
     name: "chat-circle-text",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["send", "sent", "messages", "messaging", "sms", "texting", "round"],
 
     Icon: Icon.ChatCircleText,
   },
   {
     name: "chats-circle",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["send", "sent", "messages", "messaging", "sms", "texting", "round"],
     Icon: Icon.ChatsCircle,
   },
   {
     name: "chat-teardrop",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["send", "sent", "messages", "messaging", "sms", "texting"],
     Icon: Icon.ChatTeardrop,
   },
   {
     name: "chat-teardrop-dots",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["send", "sent", "messages", "messaging", "sms", "texting"],
     Icon: Icon.ChatTeardropDots,
   },
   {
     name: "chat-teardrop-text",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["send", "sent", "messages", "messaging", "sms", "texting"],
     Icon: Icon.ChatTeardropText,
   },
   {
     name: "chats-teardrop",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["send", "sent", "messages", "messaging", "sms", "texting"],
     Icon: Icon.ChatsTeardrop,
   },
   {
     name: "check",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["todo", "to-do", "list", "checkbox", "round"],
     Icon: Icon.Check,
   },
   {
     name: "check-circle",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["todo", "to-do", "list", "checkbox", "round"],
     Icon: Icon.CheckCircle,
   },
   {
     name: "check-square",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["todo", "to-do", "list", "checkbox", "rectangle"],
     Icon: Icon.CheckSquare,
   },
   {
     name: "check-square-offset",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["todo", "to-do", "list", "checkbox", "rectangle"],
     Icon: Icon.CheckSquareOffset,
   },
   {
     name: "circle",
-    categories: [IconCategory.DESIGN],
+    category: IconCategory.DESIGN,
     tags: ["round", "shapes", "polygons"],
     Icon: Icon.Circle,
   },
   {
     name: "circle-half",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR],
+    category: IconCategory.DESIGN,
     tags: ["round", "shapes", "contrast", "brightness"],
     Icon: Icon.CircleHalf,
   },
   {
     name: "circle-half-tilt",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR],
+    category: IconCategory.DESIGN,
     tags: ["round", "shapes", "contrast", "brightness"],
     Icon: Icon.CircleHalfTilt,
   },
   {
     name: "circles-three",
-    categories: [IconCategory.DESIGN],
+    category: IconCategory.DESIGN,
     tags: ["round", "shapes", "polygons", "3"],
     Icon: Icon.CirclesThree,
   },
   {
     name: "circles-three-plus",
-    categories: [IconCategory.DESIGN],
+    category: IconCategory.DESIGN,
     tags: ["round", "shapes", "polygons", "3"],
     Icon: Icon.CirclesThreePlus,
   },
   {
     name: "circles-four",
-    categories: [IconCategory.DESIGN],
+    category: IconCategory.DESIGN,
     tags: ["round", "shapes", "polygons", "4"],
     Icon: Icon.CirclesFour,
   },
   {
     name: "clipboard",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: ["copy", "copied", "checklist"],
     Icon: Icon.Clipboard,
   },
   {
     name: "clipboard-text",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: ["copy", "copied", "checklist"],
     Icon: Icon.ClipboardText,
   },
   {
     name: "clock",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.TIME,
     tags: ["times", "timer", "alarm", "schedule", "events", "watch"],
     Icon: Icon.Clock,
   },
   {
     name: "clock-afternoon",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.TIME,
     tags: ["times", "timer", "alarm", "schedule", "events", "watch"],
     Icon: Icon.ClockAfternoon,
   },
   {
     name: "clock-clockwise",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.TIME,
     tags: [
       "times",
       "timer",
@@ -1544,19 +1535,19 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "clock-counter-clockwise",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.TIME,
     tags: ["times", "timer", "alarm", "schedule", "events", "backup", "rewind"],
     Icon: Icon.ClockCounterClockwise,
   },
   {
     name: "closed-captioning",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["subtitles", "television", "tv", "transcribed", "transcription"],
     Icon: Icon.ClosedCaptioning,
   },
   {
     name: "cloud",
-    categories: [IconCategory.SYSTEM, IconCategory.WEATHER],
+    category: IconCategory.WEATHER,
     tags: [
       "serverless",
       "backup",
@@ -1569,67 +1560,67 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "cloud-arrow-down",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["serverless", "backup", "storage", "download"],
     Icon: Icon.CloudArrowDown,
   },
   {
     name: "cloud-arrow-up",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["serverless", "backup", "storage", "upload"],
     Icon: Icon.CloudArrowUp,
   },
   {
     name: "cloud-check",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["serverless", "backup", "storage", "sync", "synchronized"],
     Icon: Icon.CloudCheck,
   },
   {
-    name: "cloud-slash",
-    categories: [IconCategory.SYSTEM],
-    tags: ["serverless", "backup", "storage", "sync", "disabled"],
-    Icon: Icon.CloudSlash,
-  },
-  {
     name: "cloud-lightning",
-    categories: [IconCategory.WEATHER],
+    category: IconCategory.WEATHER,
     tags: ["meteorology", "cloudy", "overcast", "stormy", "thunderstorm"],
     Icon: Icon.CloudLightning,
   },
   {
     name: "cloud-rain",
-    categories: [IconCategory.WEATHER],
+    category: IconCategory.WEATHER,
     tags: ["meteorology", "cloudy", "rainy", "raining", "stormy", "rainstorm"],
     Icon: Icon.CloudRain,
   },
   {
+    name: "cloud-slash",
+    category: IconCategory.SYSTEM,
+    tags: ["serverless", "backup", "storage", "sync", "disabled"],
+    Icon: Icon.CloudSlash,
+  },
+  {
     name: "cloud-snow",
-    categories: [IconCategory.WEATHER],
+    category: IconCategory.WEATHER,
     tags: ["meteorology", "cloudy", "snowy", "snowing", "stormy", "snowstorm"],
     Icon: Icon.CloudSnow,
   },
   {
     name: "club",
-    categories: [IconCategory.GAMES],
+    category: IconCategory.GAMES,
     tags: ["clubs", "suits", "cards", "gambling", "casino", "games", "gaming"],
     Icon: Icon.Club,
   },
   {
     name: "code",
-    categories: [IconCategory.DEVELOPMENT, IconCategory.EDITOR],
+    category: IconCategory.DEVELOPMENT,
     tags: ["angle brackets", "angle braces", "snippets"],
     Icon: Icon.Code,
   },
   {
     name: "code-simple",
-    categories: [IconCategory.DEVELOPMENT, IconCategory.EDITOR],
+    category: IconCategory.DEVELOPMENT,
     tags: ["angle brackets", "angle braces", "snippets"],
     Icon: Icon.CodeSimple,
   },
   {
     name: "coffee",
-    categories: [IconCategory.COMMERCE, IconCategory.OBJECTS],
+    category: IconCategory.COMMERCE,
     tags: [
       "tea",
       "java",
@@ -1650,7 +1641,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "command",
-    categories: [IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "apple",
       "keyboard",
@@ -1664,37 +1655,37 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "compass",
-    categories: [IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.MAP,
     tags: ["navigation", "directions", "maps", "safari", "apple"],
     Icon: Icon.Compass,
   },
   {
     name: "copy",
-    categories: [IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: ["duplicated", "copied", "clipboard"],
     Icon: Icon.Copy,
   },
   {
     name: "copy-simple",
-    categories: [IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: ["duplicated", "copied", "clipboard"],
     Icon: Icon.CopySimple,
   },
   {
     name: "corners-in",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["collapse", "windowed", "minimized"],
     Icon: Icon.CornersIn,
   },
   {
     name: "corners-out",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["expand", "fullscreen", "maximized"],
     Icon: Icon.CornersOut,
   },
   {
     name: "credit-card",
-    categories: [IconCategory.COMMERCE, IconCategory.FINANCE],
+    category: IconCategory.COMMERCE,
     tags: [
       "debit",
       "visa",
@@ -1708,37 +1699,37 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "crop",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR],
+    category: IconCategory.DESIGN,
     tags: ["photography", "clip", "screenshots"],
     Icon: Icon.Crop,
   },
   {
     name: "crosshair",
-    categories: [IconCategory.MAP, IconCategory.SYSTEM],
+    category: IconCategory.MAP,
     tags: ["geolocation", "aiming", "targeting"],
     Icon: Icon.Crosshair,
   },
   {
     name: "crosshair-simple",
-    categories: [IconCategory.MAP, IconCategory.SYSTEM],
+    category: IconCategory.MAP,
     tags: ["geolocation", "aiming", "targeting"],
     Icon: Icon.CrosshairSimple,
   },
   {
     name: "cube",
-    categories: [IconCategory.DESIGN, IconCategory.GAMES, IconCategory.OBJECTS],
+    category: IconCategory.DESIGN,
     tags: ["square", "box", "3d", "volume", "blocks"],
     Icon: Icon.Cube,
   },
   {
     name: "cursor",
-    categories: [IconCategory.DESIGN, IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["pointer", "arrowhead", "mouse", "click"],
     Icon: Icon.Cursor,
   },
   {
     name: "database",
-    categories: [IconCategory.DEVELOPMENT, IconCategory.SYSTEM],
+    category: IconCategory.DEVELOPMENT,
     tags: [
       "saved",
       "saving",
@@ -1755,43 +1746,43 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "device-mobile",
-    categories: [IconCategory.OBJECTS],
+    category: IconCategory.SYSTEM,
     tags: ["cellphone", "cellular"],
     Icon: Icon.DeviceMobile,
   },
   {
     name: "device-mobile-camera",
-    categories: [IconCategory.OBJECTS],
+    category: IconCategory.SYSTEM,
     tags: ["cellphone", "cellular"],
     Icon: Icon.DeviceMobileCamera,
   },
   {
     name: "device-mobile-speaker",
-    categories: [IconCategory.OBJECTS],
+    category: IconCategory.SYSTEM,
     tags: ["cellphone", "cellular"],
     Icon: Icon.DeviceMobileSpeaker,
   },
   {
     name: "device-tablet",
-    categories: [IconCategory.OBJECTS],
+    category: IconCategory.SYSTEM,
     tags: ["cellphone", "cellular", "ipad", "phablet"],
     Icon: Icon.DeviceTablet,
   },
   {
     name: "device-tablet-camera",
-    categories: [IconCategory.OBJECTS],
+    category: IconCategory.SYSTEM,
     tags: ["cellphone", "cellular", "ipad", "phablet"],
     Icon: Icon.DeviceTabletCamera,
   },
   {
     name: "device-tablet-speaker",
-    categories: [IconCategory.OBJECTS],
+    category: IconCategory.SYSTEM,
     tags: ["cellphone", "cellular", "ipad", "phablet"],
     Icon: Icon.DeviceTabletSpeaker,
   },
   {
     name: "diamond",
-    categories: [IconCategory.DESIGN, IconCategory.GAMES],
+    category: IconCategory.GAMES,
     tags: [
       "rectangle",
       "shapes",
@@ -1808,13 +1799,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   // {
   //   name: "dice",
-  //   categories: [IconCategory.OTHER],
+  //   category: IconCategory.OTHER,
   //   tags: ["die", "rolling", "gamble", "gambling", "casino", "games", "gaming"],
   //   Icon: Icon.Dice,
   // },
   {
     name: "dice-one",
-    categories: [IconCategory.GAMES, IconCategory.OBJECTS],
+    category: IconCategory.GAMES,
     tags: [
       "die",
       "rolling",
@@ -1829,7 +1820,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "dice-two",
-    categories: [IconCategory.GAMES, IconCategory.OBJECTS],
+    category: IconCategory.GAMES,
     tags: [
       "die",
       "rolling",
@@ -1844,7 +1835,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "dice-three",
-    categories: [IconCategory.GAMES, IconCategory.OBJECTS],
+    category: IconCategory.GAMES,
     tags: [
       "die",
       "rolling",
@@ -1859,7 +1850,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "dice-four",
-    categories: [IconCategory.GAMES, IconCategory.OBJECTS],
+    category: IconCategory.GAMES,
     tags: [
       "die",
       "rolling",
@@ -1874,7 +1865,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "dice-five",
-    categories: [IconCategory.GAMES, IconCategory.OBJECTS],
+    category: IconCategory.GAMES,
     tags: [
       "die",
       "rolling",
@@ -1889,7 +1880,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "dice-six",
-    categories: [IconCategory.GAMES, IconCategory.OBJECTS],
+    category: IconCategory.GAMES,
     tags: [
       "die",
       "rolling",
@@ -1904,7 +1895,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "divide",
-    categories: [IconCategory.DEVELOPMENT, IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "division",
       "divisor",
@@ -1918,13 +1909,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "dots-nine",
-    categories: [IconCategory.DESIGN],
+    category: IconCategory.SYSTEM,
     tags: ["round", "circles", "shapes", "polygons", "9"],
     Icon: Icon.DotsNine,
   },
   {
     name: "dots-three",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "round",
       "circles",
@@ -1938,7 +1929,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "dots-three-vertical",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "round",
       "circles",
@@ -1952,7 +1943,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "dots-three-outline",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "round",
       "circles",
@@ -1966,7 +1957,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "dots-three-outline-vertical",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "round",
       "circles",
@@ -1980,7 +1971,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "dots-three-circle",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "round",
       "circles",
@@ -1994,7 +1985,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "dots-three-circle-vertical",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "round",
       "circles",
@@ -2008,7 +1999,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "download",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "saved",
       "saving",
@@ -2024,7 +2015,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "download-simple",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "saved",
       "saving",
@@ -2040,55 +2031,55 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "dribbble-logo",
-    categories: [IconCategory.BRAND, IconCategory.DESIGN],
+    category: IconCategory.BRAND,
     tags: ["logos", "round", "basketball", "sports", "design"],
     Icon: Icon.DribbbleLogo,
   },
   {
     name: "drop",
-    categories: [IconCategory.NATURE, IconCategory.WEATHER],
+    category: IconCategory.WEATHER,
     tags: ["droplet", "raindrop", "raining", "meteorology", "water"],
     Icon: Icon.Drop,
   },
   {
     name: "eject",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["disconnect"],
     Icon: Icon.Eject,
   },
   {
     name: "eraser",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR],
+    category: IconCategory.DESIGN,
     tags: ["write", "writing", "editing", "undo", "deleted"],
     Icon: Icon.Eraser,
   },
   {
     name: "envelope",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["mail", "email", "send", "sent", "message"],
     Icon: Icon.Envelope,
   },
   {
     name: "envelope-open",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["mail", "email", "send", "sent", "message", "read"],
     Icon: Icon.EnvelopeOpen,
   },
   {
     name: "envelope-simple",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["mail", "email", "send", "sent", "message"],
     Icon: Icon.EnvelopeSimple,
   },
   {
     name: "envelope-simple-open",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["mail", "email", "send", "sent", "message", "read"],
     Icon: Icon.EnvelopeSimpleOpen,
   },
   {
     name: "equals",
-    categories: [IconCategory.DEVELOPMENT, IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "equality",
       "equivalent",
@@ -2101,13 +2092,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "eye",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR],
+    category: IconCategory.DESIGN,
     tags: ["visible", "hidden", "show", "hide", "visibility"],
     Icon: Icon.Eye,
   },
   {
     name: "eye-slash",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR],
+    category: IconCategory.DESIGN,
     tags: [
       "visible",
       "hidden",
@@ -2122,19 +2113,19 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "eye-closed",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR],
+    category: IconCategory.DESIGN,
     tags: ["visible", "hidden", "show", "hide", "visibility", "invisible"],
     Icon: Icon.EyeClosed,
   },
   {
     name: "facebook-logo",
-    categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
+    category: IconCategory.BRAND,
     tags: ["logos", "social media"],
     Icon: Icon.FacebookLogo,
   },
   {
     name: "faders",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: [
       "music",
       "audio",
@@ -2148,7 +2139,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "faders-horizontal",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: [
       "music",
       "audio",
@@ -2162,13 +2153,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "fast-forward",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["audio", "music", "seek", "scrub", "scan", "ahead", "skip"],
     Icon: Icon.FastForward,
   },
   {
     name: "figma-logo",
-    categories: [IconCategory.BRAND, IconCategory.DESIGN],
+    category: IconCategory.BRAND,
     tags: [
       "logos",
       "drawing",
@@ -2183,13 +2174,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "file",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["documents", "files", "save", "write"],
     Icon: Icon.File,
   },
   {
     name: "file-arrow-down",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: [
       "documents",
       "files",
@@ -2205,37 +2196,37 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "file-plus",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["documents", "files", "save", "write", "add", "new", "create"],
     Icon: Icon.FilePlus,
   },
   {
     name: "file-minus",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["documents", "files", "delete", "write", "remove"],
     Icon: Icon.FileMinus,
   },
   {
     name: "file-search",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["documents", "files", "find", "locate", "missing"],
     Icon: Icon.FileSearch,
   },
   {
     name: "file-text",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["documents", "files", "save", "write"],
     Icon: Icon.FileText,
   },
   {
     name: "file-x",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["documents", "files", "cancelled", "deleted", "removed", "errors"],
     Icon: Icon.FileX,
   },
   {
     name: "fingerprint",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: [
       "security",
       "secured",
@@ -2251,7 +2242,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "fingerprint-simple",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: [
       "security",
       "secured",
@@ -2267,25 +2258,25 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "fire",
-    categories: [IconCategory.NATURE, IconCategory.WEATHER],
+    category: IconCategory.WEATHER,
     tags: ["flame", "burning", "match", "lighter"],
     Icon: Icon.Fire,
   },
   {
     name: "flag",
-    categories: [IconCategory.OBJECTS, IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: ["country", "countries", "finished", "completed", "flags"],
     Icon: Icon.Flag,
   },
   {
     name: "flashlight",
-    categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
+    category: IconCategory.SYSTEM,
     tags: ["torch", "find", "search", "locate"],
     Icon: Icon.Flashlight,
   },
   {
     name: "floppy-disk",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: [
       "directory",
       "directories",
@@ -2299,13 +2290,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "folder",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: ["directory", "directories", "files", "folders"],
     Icon: Icon.Folder,
   },
   {
     name: "folder-plus",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: [
       "directory",
       "directories",
@@ -2320,25 +2311,25 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "folder-minus",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: ["directory", "directories", "files", "delete", "write", "remove"],
     Icon: Icon.FolderMinus,
   },
   {
     name: "folder-open",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: ["directory", "directories", "files", "folders", "load"],
     Icon: Icon.FolderOpen,
   },
   {
     name: "folder-notch",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: ["directory", "directories", "files", "folders"],
     Icon: Icon.FolderNotch,
   },
   {
     name: "folder-notch-plus",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: [
       "directory",
       "directories",
@@ -2353,25 +2344,25 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "folder-notch-minus",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: ["directory", "directories", "files", "delete", "write", "remove"],
     Icon: Icon.FolderNotchMinus,
   },
   {
     name: "folder-notch-open",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: ["directory", "directories", "files", "folders", "load"],
     Icon: Icon.FolderNotchOpen,
   },
   {
     name: "folder-simple",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: ["directory", "directories", "files", "folders"],
     Icon: Icon.FolderSimple,
   },
   {
     name: "folder-simple-plus",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: [
       "directory",
       "directories",
@@ -2386,13 +2377,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "folder-simple-minus",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: ["directory", "directories", "files", "delete", "write", "remove"],
     Icon: Icon.FolderSimpleMinus,
   },
   {
     name: "folders",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: [
       "directory",
       "directories",
@@ -2406,31 +2397,31 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "fork-knife",
-    categories: [IconCategory.COMMERCE, IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.COMMERCE,
     tags: ["food", "meal", "eating", "restaurants", "dining", "utensils"],
     Icon: Icon.ForkKnife,
   },
   {
     name: "framer-logo",
-    categories: [IconCategory.BRAND, IconCategory.DESIGN],
+    category: IconCategory.BRAND,
     tags: ["logos", "interface", "ui", "motion", "prototype", "prototyping"],
     Icon: Icon.FramerLogo,
   },
   {
     name: "funnel",
-    categories: [IconCategory.EDITOR, IconCategory.OBJECTS],
+    category: IconCategory.OFFICE,
     tags: ["filters", "refine", "sorting"],
     Icon: Icon.Funnel,
   },
   {
     name: "funnel-simple",
-    categories: [IconCategory.EDITOR, IconCategory.OBJECTS],
+    category: IconCategory.OFFICE,
     tags: ["filters", "refine", "sorting"],
     Icon: Icon.FunnelSimple,
   },
   {
     name: "game-controller",
-    categories: [IconCategory.GAMES, IconCategory.MEDIA, IconCategory.OBJECTS],
+    category: IconCategory.GAMES,
     tags: [
       "gaming",
       "video games",
@@ -2442,7 +2433,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "gear",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "8",
       "settings",
@@ -2457,7 +2448,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "gear-six",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "6",
       "settings",
@@ -2472,19 +2463,19 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "gif",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["gifs", ".gif", "giphy"],
     Icon: Icon.Gif,
   },
   {
     name: "gift",
-    categories: [IconCategory.COMMERCE, IconCategory.OBJECTS],
+    category: IconCategory.COMMERCE,
     tags: ["presents", "holidays", "birthdays"],
     Icon: Icon.Gift,
   },
   {
     name: "git-branch",
-    categories: [IconCategory.DEVELOPMENT],
+    category: IconCategory.DEVELOPMENT,
     tags: [
       "github",
       "vcs",
@@ -2497,7 +2488,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "git-commit",
-    categories: [IconCategory.DEVELOPMENT],
+    category: IconCategory.DEVELOPMENT,
     tags: [
       "github",
       "vcs",
@@ -2510,7 +2501,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "git-diff",
-    categories: [IconCategory.DEVELOPMENT],
+    category: IconCategory.DEVELOPMENT,
     tags: [
       "github",
       "vcs",
@@ -2524,7 +2515,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "git-fork",
-    categories: [IconCategory.DEVELOPMENT],
+    category: IconCategory.DEVELOPMENT,
     tags: [
       "github",
       "vcs",
@@ -2537,7 +2528,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "git-merge",
-    categories: [IconCategory.DEVELOPMENT],
+    category: IconCategory.DEVELOPMENT,
     tags: [
       "github",
       "vcs",
@@ -2550,7 +2541,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "git-pull-request",
-    categories: [IconCategory.DEVELOPMENT],
+    category: IconCategory.DEVELOPMENT,
     tags: [
       "github",
       "vcs",
@@ -2563,7 +2554,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "globe",
-    categories: [IconCategory.MAP],
+    category: IconCategory.MAP,
     tags: [
       "world",
       "global",
@@ -2581,7 +2572,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "globe-simple",
-    categories: [IconCategory.MAP],
+    category: IconCategory.MAP,
     tags: [
       "world",
       "global",
@@ -2599,7 +2590,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "globe-hemisphere-east",
-    categories: [IconCategory.MAP],
+    category: IconCategory.MAP,
     tags: [
       "world",
       "global",
@@ -2621,7 +2612,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "globe-hemisphere-west",
-    categories: [IconCategory.MAP],
+    category: IconCategory.MAP,
     tags: [
       "world",
       "global",
@@ -2641,7 +2632,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "globe-stand",
-    categories: [IconCategory.MAP],
+    category: IconCategory.MAP,
     tags: [
       "world",
       "global",
@@ -2659,13 +2650,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "google-logo",
-    categories: [IconCategory.BRAND],
+    category: IconCategory.BRAND,
     tags: ["logos", "search engine", "phone", "mobile", "android"],
     Icon: Icon.GoogleLogo,
   },
   {
     name: "google-play-logo",
-    categories: [IconCategory.BRAND, IconCategory.SYSTEM, IconCategory.MEDIA],
+    category: IconCategory.BRAND,
     tags: [
       "logos",
       "games",
@@ -2681,7 +2672,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "grid-four",
-    categories: [IconCategory.DESIGN, IconCategory.SYSTEM],
+    category: IconCategory.DESIGN,
     tags: [
       "4",
       "apps",
@@ -2698,25 +2689,25 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "hand",
-    categories: [IconCategory.SYSTEM, IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: ["pointers", "cursors", "emoji", "palm", "stop", "wait", "hamsa"],
     Icon: Icon.Hand,
   },
   {
     name: "hand-pointing",
-    categories: [IconCategory.SYSTEM, IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: ["pointers", "cursors", "emoji", "fingers", "clicks", "mouse"],
     Icon: Icon.HandPointing,
   },
   {
     name: "handbag",
-    categories: [IconCategory.COMMERCE, IconCategory.OBJECTS],
+    category: IconCategory.COMMERCE,
     tags: ["suitcases", "valises", "baggage", "purses"],
     Icon: Icon.Handbag,
   },
   {
     name: "hard-drive",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "saved",
       "saving",
@@ -2733,7 +2724,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "hard-drives",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "saved",
       "saving",
@@ -2750,7 +2741,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "hash",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: [
       "hashtag",
       "octothorpe",
@@ -2763,7 +2754,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "hash-straight",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: [
       "hashtag",
       "octothorpe",
@@ -2776,17 +2767,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "headphones",
-    categories: [IconCategory.MEDIA, IconCategory.OBJECTS],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "listening"],
     Icon: Icon.Headphones,
   },
   {
     name: "heart",
-    categories: [
-      IconCategory.COMMUNICATION,
-      IconCategory.GAMES,
-      IconCategory.HEALTH,
-    ],
+    category: IconCategory.GAMES,
     tags: [
       "wellness",
       "love",
@@ -2805,11 +2792,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "heart-straight",
-    categories: [
-      IconCategory.COMMUNICATION,
-      IconCategory.GAMES,
-      IconCategory.HEALTH,
-    ],
+    category: IconCategory.GAMES,
     tags: [
       "wellness",
       "love",
@@ -2828,25 +2811,25 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "heartbeat",
-    categories: [IconCategory.HEALTH, IconCategory.SYSTEM],
+    category: IconCategory.HEALTH,
     tags: ["wellness", "healthy", "ecg", "ekg", "vitals", "monitor"],
     Icon: Icon.Heartbeat,
   },
   {
     name: "hexagon",
-    categories: [IconCategory.DESIGN],
+    category: IconCategory.DESIGN,
     tags: ["6", "shapes", "polygons"],
     Icon: Icon.Hexagon,
   },
   {
     name: "horse",
-    categories: [IconCategory.GAMES, IconCategory.HEALTH, IconCategory.NATURE],
+    category: IconCategory.GAMES,
     tags: ["animals", "equestrian", "chess", "knight", "games", "sports"],
     Icon: Icon.Horse,
   },
   {
     name: "hourglass",
-    categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
+    category: IconCategory.TIME,
     tags: [
       "times",
       "timer",
@@ -2860,7 +2843,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "hourglass-high",
-    categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
+    category: IconCategory.TIME,
     tags: [
       "times",
       "timer",
@@ -2874,7 +2857,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "hourglass-medium",
-    categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
+    category: IconCategory.TIME,
     tags: [
       "times",
       "timer",
@@ -2888,7 +2871,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "hourglass-low",
-    categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
+    category: IconCategory.TIME,
     tags: [
       "times",
       "timer",
@@ -2902,7 +2885,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "hourglass-simple",
-    categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
+    category: IconCategory.TIME,
     tags: [
       "times",
       "timer",
@@ -2916,7 +2899,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "hourglass-simple-high",
-    categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
+    category: IconCategory.TIME,
     tags: [
       "times",
       "timer",
@@ -2930,7 +2913,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "hourglass-simple-medium",
-    categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
+    category: IconCategory.TIME,
     tags: [
       "times",
       "timer",
@@ -2944,7 +2927,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "hourglass-simple-low",
-    categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
+    category: IconCategory.TIME,
     tags: [
       "times",
       "timer",
@@ -2958,31 +2941,31 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "house",
-    categories: [IconCategory.MAP, IconCategory.SYSTEM],
+    category: IconCategory.MAP,
     tags: ["homes", "buildings", "places", "locations"],
     Icon: Icon.House,
   },
   {
     name: "house-line",
-    categories: [IconCategory.MAP, IconCategory.SYSTEM],
+    category: IconCategory.MAP,
     tags: ["homes", "buildings", "places", "locations"],
     Icon: Icon.HouseLine,
   },
   {
     name: "house-simple",
-    categories: [IconCategory.MAP, IconCategory.SYSTEM],
+    category: IconCategory.MAP,
     tags: ["homes", "buildings", "places", "locations"],
     Icon: Icon.HouseSimple,
   },
   {
     name: "identification-card",
-    categories: [IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: ["license", "credentials", "nametag", "user", "verification"],
     Icon: Icon.IdentificationCard,
   },
   {
     name: "image",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: [
       "pictures",
       "photographs",
@@ -2995,7 +2978,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "image-square",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: [
       "pictures",
       "photographs",
@@ -3008,19 +2991,19 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "info",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: ["information", "help"],
     Icon: Icon.Info,
   },
   {
     name: "instagram-logo",
-    categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
+    category: IconCategory.BRAND,
     tags: ["logos", "social media", "photography", "camera"],
     Icon: Icon.InstagramLogo,
   },
   {
     name: "intersect",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR],
+    category: IconCategory.DESIGN,
     tags: [
       "round",
       "joining",
@@ -3034,7 +3017,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "jeep",
-    categories: [IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.MAP,
     tags: [
       "vehicles",
       "suv",
@@ -3050,7 +3033,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "key",
-    categories: [IconCategory.OBJECTS, IconCategory.SYSTEM], /// !!
+    category: IconCategory.SECURITY, /// !!
     tags: [
       "padlock",
       "security",
@@ -3066,25 +3049,25 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "keyboard",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["typing", "type", "keys", "input"],
     Icon: Icon.Keyboard,
   },
   {
     name: "leaf",
-    categories: [IconCategory.NATURE],
+    category: IconCategory.WEATHER,
     tags: ["trees", "branches", "leaves", "nodes", "green", "environmental"],
     Icon: Icon.Leaf,
   },
   {
     name: "lightbulb",
-    categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
+    category: IconCategory.SYSTEM,
     tags: ["flashlight", "bulbs", "lighting", "led", "energy"],
     Icon: Icon.Lightbulb,
   },
   {
     name: "lightning",
-    categories: [IconCategory.WEATHER, IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "meteorology",
       "stormy",
@@ -3099,7 +3082,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "lightning-slash",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "thunderbolt",
       "charged",
@@ -3112,13 +3095,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "link",
-    categories: [IconCategory.COMMUNICATION, IconCategory.OBJECTS],
+    category: IconCategory.SYSTEM,
     tags: ["anchor", "hyperlink", "hypertext", "chains", "chained"],
     Icon: Icon.Link,
   },
   {
     name: "link-break",
-    categories: [IconCategory.COMMUNICATION, IconCategory.OBJECTS],
+    category: IconCategory.SYSTEM,
     tags: [
       "anchor",
       "hyperlink",
@@ -3132,13 +3115,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "link-simple",
-    categories: [IconCategory.COMMUNICATION, IconCategory.OBJECTS],
+    category: IconCategory.SYSTEM,
     tags: ["anchor", "hyperlink", "hypertext", "chains", "chained"],
     Icon: Icon.LinkSimple,
   },
   {
     name: "link-simple-break",
-    categories: [IconCategory.COMMUNICATION, IconCategory.OBJECTS],
+    category: IconCategory.SYSTEM,
     tags: [
       "anchor",
       "hyperlink",
@@ -3152,13 +3135,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "link-simple-horizontal",
-    categories: [IconCategory.COMMUNICATION, IconCategory.OBJECTS],
+    category: IconCategory.SYSTEM,
     tags: ["anchor", "hyperlink", "hypertext", "chains", "chained"],
     Icon: Icon.LinkSimpleHorizontal,
   },
   {
     name: "link-simple-horizontal-break",
-    categories: [IconCategory.COMMUNICATION, IconCategory.OBJECTS],
+    category: IconCategory.SYSTEM,
     tags: [
       "anchor",
       "hyperlink",
@@ -3172,13 +3155,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "linkedin-logo",
-    categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
+    category: IconCategory.BRAND,
     tags: ["logos", "jobs", "employment", "social media"],
     Icon: Icon.LinkedinLogo,
   },
   {
     name: "list",
-    categories: [IconCategory.SYSTEM, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: [
       "hamburger menu",
       "overflow menu",
@@ -3194,31 +3177,31 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "list-bullets",
-    categories: [IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["ul", "unordered list", "bulleted list", "checklist"],
     Icon: Icon.ListBullets,
   },
   {
     name: "list-dashes",
-    categories: [IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["ul", "unordered list", "dashed list", "checklist"],
     Icon: Icon.ListDashes,
   },
   {
     name: "list-numbers",
-    categories: [IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["ol", "ordered list", "numbered list", "checklist"],
     Icon: Icon.ListNumbers,
   },
   {
     name: "list-plus",
-    categories: [IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["ul", "ol", "unordered list", "ordered list", "checklist", "add"],
     Icon: Icon.ListPlus,
   },
   {
     name: "lock",
-    categories: [IconCategory.OBJECTS, IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: [
       "padlock",
       "security",
@@ -3234,7 +3217,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "lock-open",
-    categories: [IconCategory.OBJECTS, IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: [
       "padlock",
       "security",
@@ -3250,7 +3233,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "lock-key",
-    categories: [IconCategory.OBJECTS, IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: [
       "padlock",
       "security",
@@ -3266,7 +3249,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "lock-key-open",
-    categories: [IconCategory.OBJECTS, IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: [
       "padlock",
       "security",
@@ -3282,7 +3265,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "lock-laminated",
-    categories: [IconCategory.OBJECTS, IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: [
       "padlock",
       "security",
@@ -3298,7 +3281,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "lock-laminated-open",
-    categories: [IconCategory.OBJECTS, IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: [
       "padlock",
       "security",
@@ -3314,7 +3297,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "lock-simple",
-    categories: [IconCategory.OBJECTS, IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: [
       "padlock",
       "security",
@@ -3330,7 +3313,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "lock-simple-open",
-    categories: [IconCategory.OBJECTS, IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: [
       "padlock",
       "security",
@@ -3346,43 +3329,43 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "magnifying-glass",
-    categories: [IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["search", "find", "locate", "query", "inspect"],
     Icon: Icon.MagnifyingGlass,
   },
   {
     name: "magnifying-glass-plus",
-    categories: [IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["search", "find", "locate", "query", "inspect", "zoom in"],
     Icon: Icon.MagnifyingGlassPlus,
   },
   {
     name: "magnifying-glass-minus",
-    categories: [IconCategory.EDITOR, IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["search", "find", "locate", "query", "inspect", "zoom out"],
     Icon: Icon.MagnifyingGlassMinus,
   },
   {
     name: "map-pin",
-    categories: [IconCategory.MAP],
+    category: IconCategory.MAP,
     tags: ["maps", "places", "markers", "pins", "locations"],
     Icon: Icon.MapPin,
   },
   {
     name: "map-pin-line",
-    categories: [IconCategory.MAP],
+    category: IconCategory.MAP,
     tags: ["maps", "places", "markers", "pins", "locations"],
     Icon: Icon.MapPinLine,
   },
   {
     name: "map-trifold",
-    categories: [IconCategory.MAP],
+    category: IconCategory.MAP,
     tags: ["maps", "places", "locations", "cartography", "geography"],
     Icon: Icon.MapTrifold,
   },
   {
     name: "martini",
-    categories: [IconCategory.COMMERCE, IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.COMMERCE,
     tags: [
       "drinks",
       "beverages",
@@ -3398,7 +3381,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "math-operations",
-    categories: [IconCategory.DEVELOPMENT, IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "addition",
       "sum",
@@ -3422,41 +3405,31 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "medal",
-    categories: [IconCategory.OBJECTS],
+    category: IconCategory.GAMES,
     tags: ["ribbons", "winning", "victory", "awards"],
     Icon: Icon.Medal,
   },
   {
     name: "medium-logo",
-    categories: [IconCategory.BRAND],
+    category: IconCategory.BRAND,
     tags: ["logos", "reading", "writing", "news", "social media"],
     Icon: Icon.MediumLogo,
   },
   {
     name: "megaphone",
-    categories: [IconCategory.COMMUNICATION, IconCategory.OBJECTS],
+    category: IconCategory.COMMUNICATION,
     tags: ["bullhorn", "announcements", "loudspeaker", "broadcast"],
     Icon: Icon.Megaphone,
   },
   {
     name: "microphone",
-    categories: [
-      IconCategory.COMMUNICATION,
-
-      IconCategory.MEDIA,
-      IconCategory.SYSTEM,
-    ],
+    category: IconCategory.MEDIA,
     tags: ["audio", "recording", "music", "sound", "podcast"],
     Icon: Icon.Microphone,
   },
   {
     name: "microphone-slash",
-    categories: [
-      IconCategory.COMMUNICATION,
-
-      IconCategory.MEDIA,
-      IconCategory.SYSTEM,
-    ],
+    category: IconCategory.MEDIA,
     tags: [
       "audio",
       "recording",
@@ -3470,11 +3443,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "minus",
-    categories: [
-      IconCategory.DEVELOPMENT,
-      IconCategory.FINANCE,
-      IconCategory.SYSTEM,
-    ],
+    category: IconCategory.FINANCE,
     tags: [
       "subtraction",
       "difference",
@@ -3486,11 +3455,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "minus-circle",
-    categories: [
-      IconCategory.DEVELOPMENT,
-      IconCategory.FINANCE,
-      IconCategory.SYSTEM,
-    ],
+    category: IconCategory.SYSTEM,
     tags: [
       "subtraction",
       "difference",
@@ -3503,17 +3468,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "monitor",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["screen", "television", "tv", "displays"],
     Icon: Icon.Monitor,
   },
   {
     name: "moon",
-    categories: [
-      IconCategory.NATURE,
-      IconCategory.SYSTEM,
-      IconCategory.WEATHER,
-    ],
+    category: IconCategory.WEATHER,
     tags: [
       "night",
       "evening",
@@ -3527,79 +3488,79 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "mouse",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["clicks", "input"],
     Icon: Icon.Mouse,
   },
   {
     name: "music-note",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["songs", "audio", "playlist", "albums"],
     Icon: Icon.MusicNote,
   },
   {
     name: "music-notes",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["songs", "audio", "playlist", "albums"],
     Icon: Icon.MusicNotes,
   },
   {
     name: "music-note-simple",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["songs", "audio", "playlist", "albums"],
     Icon: Icon.MusicNoteSimple,
   },
   {
     name: "music-notes-simple",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["songs", "audio", "playlist", "albums"],
     Icon: Icon.MusicNotesSimple,
   },
   {
     name: "navigation-arrow",
-    categories: [IconCategory.MAP],
+    category: IconCategory.MAP,
     tags: ["location", "directions", "compass", "gps"],
     Icon: Icon.NavigationArrow,
   },
   {
     name: "newspaper",
-    categories: [IconCategory.MEDIA, IconCategory.OBJECTS],
+    category: IconCategory.MEDIA,
     tags: ["reading", "writing", "journals", "periodicals"],
     Icon: Icon.Newspaper,
   },
   {
     name: "newspaper-clipping",
-    categories: [IconCategory.MEDIA, IconCategory.OBJECTS],
+    category: IconCategory.MEDIA,
     tags: ["reading", "writing", "journals", "periodicals"],
     Icon: Icon.NewspaperClipping,
   },
   {
     name: "note",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["notes", "note-taking", "memorandum", "post-it", "reminders"],
     Icon: Icon.Note,
   },
   {
     name: "note-blank",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["notes", "note-taking", "memorandum", "post-it", "reminders"],
     Icon: Icon.NoteBlank,
   },
   {
     name: "note-pencil",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["notes", "note-taking", "memorandum", "post-it", "reminders"],
     Icon: Icon.NotePencil,
   },
   {
     name: "notebook",
-    categories: [IconCategory.OFFICE, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["notes", "note-taking", "memorandum", "journal", "diary", "logs"],
     Icon: Icon.Notebook,
   },
   {
     name: "number-zero",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "0",
       "numbers",
@@ -3614,7 +3575,7 @@ export const icons: ReadonlyArray<IconEntry> = [
 
   {
     name: "number-one",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "1",
       "numbers",
@@ -3629,7 +3590,7 @@ export const icons: ReadonlyArray<IconEntry> = [
 
   {
     name: "number-two",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "2",
       "numbers",
@@ -3644,7 +3605,7 @@ export const icons: ReadonlyArray<IconEntry> = [
 
   {
     name: "number-three",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "3",
       "numbers",
@@ -3659,7 +3620,7 @@ export const icons: ReadonlyArray<IconEntry> = [
 
   {
     name: "number-four",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "4",
       "numbers",
@@ -3674,7 +3635,7 @@ export const icons: ReadonlyArray<IconEntry> = [
 
   {
     name: "number-five",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "5",
       "numbers",
@@ -3689,7 +3650,7 @@ export const icons: ReadonlyArray<IconEntry> = [
 
   {
     name: "number-six",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "6",
       "numbers",
@@ -3704,7 +3665,7 @@ export const icons: ReadonlyArray<IconEntry> = [
 
   {
     name: "number-seven",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "7",
       "numbers",
@@ -3719,7 +3680,7 @@ export const icons: ReadonlyArray<IconEntry> = [
 
   {
     name: "number-eight",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "8",
       "numbers",
@@ -3734,7 +3695,7 @@ export const icons: ReadonlyArray<IconEntry> = [
 
   {
     name: "number-nine",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "9",
       "numbers",
@@ -3748,7 +3709,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-circle-zero",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "0",
       "round",
@@ -3763,7 +3724,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-circle-one",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "1",
       "round",
@@ -3778,7 +3739,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-circle-two",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "2",
       "round",
@@ -3793,7 +3754,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-circle-three",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "3",
       "round",
@@ -3808,7 +3769,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-circle-four",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "4",
       "round",
@@ -3823,7 +3784,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-circle-five",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "5",
       "round",
@@ -3838,7 +3799,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-circle-six",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "6",
       "round",
@@ -3853,7 +3814,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-circle-seven",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "7",
       "round",
@@ -3868,7 +3829,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-circle-eight",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "8",
       "round",
@@ -3883,7 +3844,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-circle-nine",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "9",
       "round",
@@ -3898,7 +3859,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-square-zero",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "0",
       "numbers",
@@ -3912,7 +3873,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-square-one",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "1",
       "numbers",
@@ -3926,7 +3887,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-square-two",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "2",
       "numbers",
@@ -3940,7 +3901,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-square-three",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "3",
       "numbers",
@@ -3954,7 +3915,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-square-four",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "4",
       "numbers",
@@ -3968,7 +3929,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-square-five",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "5",
       "numbers",
@@ -3982,7 +3943,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-square-six",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "6",
       "numbers",
@@ -3996,7 +3957,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-square-seven",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "7",
       "numbers",
@@ -4010,7 +3971,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-square-eight",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "8",
       "numbers",
@@ -4024,7 +3985,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "number-square-nine",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "9",
       "numbers",
@@ -4038,19 +3999,19 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "nut",
-    categories: [IconCategory.OBJECTS, IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["bolts", "screws", "machinery", "tools", "hexagon"],
     Icon: Icon.Nut,
   },
   {
     name: "octagon",
-    categories: [IconCategory.DESIGN],
+    category: IconCategory.DESIGN,
     tags: ["8", "shapes", "polygons"],
     Icon: Icon.Octagon,
   },
   {
     name: "package",
-    categories: [IconCategory.DEVELOPMENT, IconCategory.OBJECTS],
+    category: IconCategory.COMMERCE,
     tags: [
       "packages",
       "delivery",
@@ -4065,21 +4026,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "paint-bucket",
-    categories: [
-      IconCategory.DESIGN,
-      IconCategory.EDITOR,
-      IconCategory.OBJECTS,
-    ],
+    category: IconCategory.DESIGN,
     tags: ["paintbucket", "fill"],
     Icon: Icon.PaintBucket,
   },
   {
     name: "paper-plane",
-    categories: [
-      IconCategory.COMMUNICATION,
-      IconCategory.MAP,
-      IconCategory.OBJECTS,
-    ],
+    category: IconCategory.COMMUNICATION,
     tags: [
       "mail",
       "email",
@@ -4094,11 +4047,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "paper-plane-right",
-    categories: [
-      IconCategory.COMMUNICATION,
-      IconCategory.MAP,
-      IconCategory.OBJECTS,
-    ],
+    category: IconCategory.COMMUNICATION,
     tags: [
       "mail",
       "email",
@@ -4113,11 +4062,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "paper-plane-tilt",
-    categories: [
-      IconCategory.COMMUNICATION,
-      IconCategory.MAP,
-      IconCategory.OBJECTS,
-    ],
+    category: IconCategory.COMMUNICATION,
     tags: [
       "mail",
       "email",
@@ -4132,18 +4077,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "paperclip",
-    categories: [
-      IconCategory.COMMUNICATION,
-      IconCategory.EDITOR,
-      IconCategory.OFFICE,
-      IconCategory.OBJECTS,
-    ],
+    category: IconCategory.OFFICE,
     tags: ["attachments", "mail", "email", "office"],
     Icon: Icon.Paperclip,
   },
   {
     name: "path",
-    categories: [IconCategory.DESIGN, IconCategory.MAP],
+    category: IconCategory.MAP,
     tags: [
       "transit",
       "travel",
@@ -4157,25 +4097,25 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "pause",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "resume", "start", "stop"],
     Icon: Icon.Pause,
   },
   {
     name: "pause-circle",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "resume", "start", "stop", "round"],
     Icon: Icon.PauseCircle,
   },
   {
     name: "peace",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["love", "hippies", "peace sign", "symbols"],
     Icon: Icon.Peace,
   },
   {
     name: "pedestrian",
-    categories: [IconCategory.MAP, IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: [
       "person",
       "walking",
@@ -4193,13 +4133,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "pen",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
+    category: IconCategory.DESIGN,
     tags: ["ink", "write", "writing", "editing", "sign", "signature"],
     Icon: Icon.Pen,
   },
   {
     name: "pen-nib",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
+    category: IconCategory.DESIGN,
     tags: [
       "ink",
       "write",
@@ -4214,31 +4154,31 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "pencil",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
+    category: IconCategory.DESIGN,
     tags: ["write", "writing", "editing", "sign", "signature"],
     Icon: Icon.Pencil,
   },
   {
     name: "pencil-circle",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
+    category: IconCategory.DESIGN,
     tags: ["write", "writing", "editing", "sign", "signature"],
     Icon: Icon.PencilCircle,
   },
   {
     name: "pencil-line",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
+    category: IconCategory.DESIGN,
     tags: ["write", "writing", "editing", "sign", "signature"],
     Icon: Icon.PencilLine,
   },
   {
     name: "pencil-simple",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR, IconCategory.OFFICE],
+    category: IconCategory.DESIGN,
     tags: ["write", "writing", "editing", "sign", "signature"],
     Icon: Icon.PencilSimple,
   },
   {
     name: "percent",
-    categories: [IconCategory.DEVELOPMENT, IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "percentage",
       "percentile",
@@ -4252,81 +4192,73 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "phone",
-    categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
+    category: IconCategory.COMMUNICATION,
     tags: ["calls", "telephone", "landline"],
     Icon: Icon.Phone,
   },
   {
     name: "phone-call",
-    categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
+    category: IconCategory.COMMUNICATION,
     tags: ["calls", "calling", "ringing", "telephone", "landline"],
     Icon: Icon.PhoneCall,
   },
   {
     name: "phone-disconnect",
-    categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
+    category: IconCategory.COMMUNICATION,
     tags: ["calls", "hang up", "disconnected", "telephone", "landline"],
     Icon: Icon.PhoneDisconnect,
   },
   {
     name: "phone-incoming",
-    categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
+    category: IconCategory.COMMUNICATION,
     tags: ["calls", "calling", "telephone", "landline"],
     Icon: Icon.PhoneIncoming,
   },
   {
     name: "phone-outgoing",
-    categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
+    category: IconCategory.COMMUNICATION,
     tags: ["calls", "calling", "telephone", "landline"],
     Icon: Icon.PhoneOutgoing,
   },
   {
     name: "phone-slash",
-    categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
+    category: IconCategory.COMMUNICATION,
     tags: ["calls", "disabled", "disconnected", "telephone", "landline"],
     Icon: Icon.PhoneSlash,
   },
   {
     name: "phone-x",
-    categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
+    category: IconCategory.COMMUNICATION,
     tags: ["calls", "missed", "errors", "telephone", "landline"],
     Icon: Icon.PhoneX,
   },
   {
     name: "phosphor-logo",
-    categories: [IconCategory.BRAND],
+    category: IconCategory.BRAND,
     tags: ["logos"],
     Icon: Icon.PhosphorLogo,
   },
   {
     name: "play",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "resume", "start"],
     Icon: Icon.Play,
   },
   {
     name: "play-circle",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "resume", "start", "round"],
     Icon: Icon.PlayCircle,
   },
   {
     name: "plus",
-    categories: [
-      IconCategory.DEVELOPMENT,
-      IconCategory.FINANCE,
-      IconCategory.SYSTEM,
-    ],
+    category: IconCategory.FINANCE,
     tags: ["addition", "sum", "mathematics", "arithmetic", "calculator"],
     Icon: Icon.Plus,
   },
   {
     name: "plus-circle",
-    categories: [
-      IconCategory.DEVELOPMENT,
-      IconCategory.FINANCE,
-      IconCategory.SYSTEM,
-    ],
+    category: IconCategory.SYSTEM,
     tags: [
       "addition",
       "sum",
@@ -4339,7 +4271,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "plus-minus",
-    categories: [IconCategory.DEVELOPMENT, IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "plus or minus",
       "plus/minus",
@@ -4356,7 +4288,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "power",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "charged",
       "charger",
@@ -4371,13 +4303,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "printer",
-    categories: [IconCategory.EDITOR, IconCategory.OFFICE],
+    category: IconCategory.OFFICE,
     tags: ["printing"],
     Icon: Icon.Printer,
   },
   {
     name: "prohibit",
-    categories: [IconCategory.MAP, IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: [
       "forbidden",
       "prohibited",
@@ -4390,7 +4322,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "prohibit-inset",
-    categories: [IconCategory.MAP, IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: [
       "forbidden",
       "prohibited",
@@ -4403,31 +4335,31 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "push-pin",
-    categories: [IconCategory.OFFICE, IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.OFFICE,
     tags: ["favorites", "favorited", "pushpin"],
     Icon: Icon.PushPin,
   },
   {
     name: "push-pin-slash",
-    categories: [IconCategory.OFFICE, IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.OFFICE,
     tags: ["favorites", "favorited", "pushpin", "disabled"],
     Icon: Icon.PushPinSlash,
   },
   {
     name: "qr-code",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["upc", "barcode", "products", "shopping", "scanner"],
     Icon: Icon.QrCode,
   },
   {
     name: "question",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: ["information", "help", "questions"],
     Icon: Icon.Question,
   },
   {
     name: "radical",
-    categories: [IconCategory.DEVELOPMENT, IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "radix",
       "radicand",
@@ -4441,43 +4373,43 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "receipt",
-    categories: [IconCategory.COMMERCE, IconCategory.FINANCE],
+    category: IconCategory.COMMERCE,
     tags: ["purchased", "clipping", "expenses"],
     Icon: Icon.Receipt,
   },
   {
     name: "record",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "recording", "recorder", "voice memo"],
     Icon: Icon.Record,
   },
   {
     name: "rectangle",
-    categories: [IconCategory.DESIGN],
+    category: IconCategory.DESIGN,
     tags: ["4", "shapes", "polygons", "box"],
     Icon: Icon.Rectangle,
   },
   {
     name: "rectangles-two",
-    categories: [IconCategory.DESIGN],
+    category: IconCategory.DESIGN,
     tags: ["2", "shapes", "polygons", "box", "stack", "list", "cards"],
     Icon: Icon.RectanglesTwo,
   },
   {
     name: "repeat",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "recycle"],
     Icon: Icon.Repeat,
   },
   {
     name: "repeat-once",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "recycle"],
     Icon: Icon.RepeatOnce,
   },
   {
     name: "rewind",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: [
       "music",
       "audio",
@@ -4493,68 +4425,55 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "rocket",
-    categories: [
-      IconCategory.DEVELOPMENT,
-      IconCategory.MAP,
-      IconCategory.OBJECTS,
-    ],
+    category: IconCategory.MAP,
     tags: ["spaceship", "launch", "deployment", "rocketship"],
     Icon: Icon.Rocket,
   },
   {
     name: "rocket-launch",
-    categories: [
-      IconCategory.DEVELOPMENT,
-      IconCategory.MAP,
-      IconCategory.OBJECTS,
-    ],
+    category: IconCategory.MAP,
     tags: ["spaceship", "flying", "blastoff", "deployment", "rocketship"],
     Icon: Icon.RocketLaunch,
   },
   {
     name: "rss",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["radio", "broadcast", "web feed", "news", "aggregator"],
     Icon: Icon.Rss,
   },
   {
     name: "rss-simple",
-    categories: [IconCategory.COMMUNICATION],
+    category: IconCategory.COMMUNICATION,
     tags: ["radio", "broadcast", "web feed", "news", "aggregator"],
     Icon: Icon.RssSimple,
   },
   {
     name: "scissors",
-    categories: [
-      IconCategory.DESIGN,
-      IconCategory.EDITOR,
-      IconCategory.OFFICE,
-      IconCategory.SYSTEM,
-    ],
+    category: IconCategory.DESIGN,
     tags: ["cut", "snip", "clipboard"],
     Icon: Icon.Scissors,
   },
   {
     name: "screencast",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["apple", "airplay", "screencasting", "television", "tv"],
     Icon: Icon.Screencast,
   },
   {
     name: "share",
-    categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
+    category: IconCategory.COMMUNICATION,
     tags: ["send to", "export", "arrows"],
     Icon: Icon.Share,
   },
   {
     name: "share-network",
-    categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
+    category: IconCategory.COMMUNICATION,
     tags: ["send to", "export"],
     Icon: Icon.ShareNetwork,
   },
   {
     name: "shield",
-    categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
+    category: IconCategory.SECURITY,
     tags: [
       "security",
       "secured",
@@ -4571,7 +4490,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "shield-check",
-    categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
+    category: IconCategory.SECURITY,
     tags: [
       "security",
       "secured",
@@ -4588,7 +4507,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "shield-chevron",
-    categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
+    category: IconCategory.SECURITY,
     tags: [
       "security",
       "secured",
@@ -4605,7 +4524,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "shield-slash",
-    categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
+    category: IconCategory.SECURITY,
     tags: [
       "security",
       "unsecured",
@@ -4623,7 +4542,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "shield-warning",
-    categories: [IconCategory.SYSTEM, IconCategory.OBJECTS],
+    category: IconCategory.SECURITY,
     tags: [
       "security",
       "unsecured",
@@ -4641,19 +4560,19 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "shopping-bag",
-    categories: [IconCategory.COMMERCE, IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.COMMERCE,
     tags: ["ecommerce", "market", "buying", "checkout", "places", "locations"],
     Icon: Icon.ShoppingBag,
   },
   {
     name: "shopping-bag-open",
-    categories: [IconCategory.COMMERCE, IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.COMMERCE,
     tags: ["ecommerce", "market", "buying", "checkout", "places", "locations"],
     Icon: Icon.ShoppingBagOpen,
   },
   {
     name: "shopping-cart",
-    categories: [IconCategory.COMMERCE, IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.COMMERCE,
     tags: [
       "ecommerce",
       "market",
@@ -4667,7 +4586,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "shopping-cart-simple",
-    categories: [IconCategory.COMMERCE, IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.COMMERCE,
     tags: [
       "ecommerce",
       "market",
@@ -4681,37 +4600,37 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "shuffle",
-    categories: [IconCategory.MEDIA, IconCategory.ARROWS],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "randomize", "crossed"],
     Icon: Icon.Shuffle,
   },
   {
     name: "shuffle-angular",
-    categories: [IconCategory.MEDIA, IconCategory.ARROWS],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "randomize", "crossed"],
     Icon: Icon.ShuffleAngular,
   },
   {
     name: "shuffle-simple",
-    categories: [IconCategory.MEDIA, IconCategory.ARROWS],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "randomize", "crossed"],
     Icon: Icon.ShuffleSimple,
   },
   {
     name: "sign-in",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["signin", "login", "log in", "enter"],
     Icon: Icon.SignIn,
   },
   {
     name: "sign-out",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["signout", "logout", "log out", "exit"],
     Icon: Icon.SignOut,
   },
   {
     name: "sketch-logo",
-    categories: [IconCategory.DESIGN],
+    category: IconCategory.BRAND,
     tags: [
       "drawing",
       "art",
@@ -4727,7 +4646,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "skip-back",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: [
       "music",
       "audio",
@@ -4743,13 +4662,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "skip-forward",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "seek", "scrub", "scan", "ahead", "next"],
     Icon: Icon.SkipForward,
   },
   {
     name: "sliders",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: [
       "music",
       "audio",
@@ -4763,7 +4682,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "sliders-horizontal",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: [
       "music",
       "audio",
@@ -4777,25 +4696,25 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "smiley",
-    categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: ["face", "smiley", "emoji", "happy", "grinning", "smiling"],
     Icon: Icon.Smiley,
   },
   {
     name: "smiley-blank",
-    categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: ["face", "smiley", "emoji", "unimpressed", "no face"],
     Icon: Icon.SmileyBlank,
   },
   {
     name: "smiley-meh",
-    categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: ["face", "smiley", "emoji", "unimpressed", "neutral"],
     Icon: Icon.SmileyMeh,
   },
   {
     name: "smiley-nervous",
-    categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: [
       "face",
       "smiley",
@@ -4811,109 +4730,109 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "smiley-sad",
-    categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: ["face", "smiley", "emoji", "unhappy", "frowning"],
     Icon: Icon.SmileySad,
   },
   {
     name: "smiley-sticker",
-    categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: ["face", "smiley", "emoji", "happy", "grinning", "smiling"],
     Icon: Icon.SmileySticker,
   },
   {
     name: "smiley-x-eyes",
-    categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: ["face", "smiley", "emoji", "dead", "killed", "unconscious"],
     Icon: Icon.SmileyXEyes,
   },
   {
     name: "sort-ascending",
-    categories: [IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["sorted", "sorting", "increasing", "a to z", "arrows"],
     Icon: Icon.SortAscending,
   },
   {
     name: "sort-descending",
-    categories: [IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["sorted", "sorting", "decreasing", "z to a", "arrows"],
     Icon: Icon.SortDescending,
   },
   {
     name: "spade",
-    categories: [IconCategory.GAMES],
+    category: IconCategory.GAMES,
     tags: ["spades", "suits", "cards", "gambling", "casino", "games", "gaming"],
     Icon: Icon.Spade,
   },
   {
     name: "speaker-high",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "volume", "sound"],
     Icon: Icon.SpeakerHigh,
   },
   {
     name: "speaker-low",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "volume", "sound"],
     Icon: Icon.SpeakerLow,
   },
   {
     name: "speaker-none",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "muted", "volume", "sound"],
     Icon: Icon.SpeakerNone,
   },
   {
     name: "speaker-slash",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "muted", "volume", "sound", "disabled"],
     Icon: Icon.SpeakerSlash,
   },
   {
     name: "speaker-x",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "muted", "volume", "sound", "disabled", "errors"],
     Icon: Icon.SpeakerX,
   },
   {
     name: "speaker-simple-high",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "volume", "sound"],
     Icon: Icon.SpeakerSimpleHigh,
   },
   {
     name: "speaker-simple-low",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "volume", "sound"],
     Icon: Icon.SpeakerSimpleLow,
   },
   {
     name: "speaker-simple-none",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "muted", "volume", "sound"],
     Icon: Icon.SpeakerSimpleNone,
   },
   {
     name: "speaker-simple-slash",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "muted", "volume", "sound", "disabled"],
     Icon: Icon.SpeakerSimpleSlash,
   },
   {
     name: "speaker-simple-x",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "muted", "volume", "sound", "disabled", "errors"],
     Icon: Icon.SpeakerSimpleX,
   },
   {
     name: "square",
-    categories: [IconCategory.DESIGN],
+    category: IconCategory.DESIGN,
     tags: ["4", "shapes", "polygons", "box"],
     Icon: Icon.Square,
   },
   {
     name: "square-half",
-    categories: [IconCategory.DESIGN],
+    category: IconCategory.DESIGN,
     tags: [
       "4",
       "shapes",
@@ -4927,47 +4846,43 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "squares-four",
-    categories: [IconCategory.DESIGN, IconCategory.SYSTEM],
+    category: IconCategory.DESIGN,
     tags: ["4", "shapes", "polygons", "apps", "applications", "grid", "table"],
     Icon: Icon.SquaresFour,
   },
   {
     name: "stack",
-    categories: [IconCategory.DESIGN, IconCategory.OFFICE, IconCategory.EDITOR],
+    category: IconCategory.DESIGN,
     tags: ["cards", "layers"],
     Icon: Icon.Stack,
   },
   {
     name: "stack-simple",
-    categories: [IconCategory.DESIGN, IconCategory.OFFICE, IconCategory.EDITOR],
+    category: IconCategory.DESIGN,
     tags: ["cards", "layers"],
     Icon: Icon.StackSimple,
   },
   {
     name: "star",
-    categories: [
-      IconCategory.COMMUNICATION,
-      IconCategory.MAP,
-      IconCategory.NATURE,
-    ],
+    category: IconCategory.WEATHER,
     tags: ["rate", "ratings", "favorites", "favorited"],
     Icon: Icon.Star,
   },
   {
     name: "stop",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio"],
     Icon: Icon.Stop,
   },
   {
     name: "stop-circle",
-    categories: [IconCategory.MEDIA],
+    category: IconCategory.MEDIA,
     tags: ["music", "audio", "round"],
     Icon: Icon.StopCircle,
   },
   {
     name: "storefront",
-    categories: [IconCategory.COMMERCE, IconCategory.MAP], /// ??
+    category: IconCategory.COMMERCE, /// ??
     tags: [
       "shops",
       "shopping",
@@ -4981,11 +4896,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "sun",
-    categories: [
-      IconCategory.NATURE,
-      IconCategory.SYSTEM,
-      IconCategory.WEATHER,
-    ],
+    category: IconCategory.WEATHER,
     tags: [
       "day",
       "daytime",
@@ -5002,11 +4913,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "sun-dim",
-    categories: [
-      IconCategory.NATURE,
-      IconCategory.SYSTEM,
-      IconCategory.WEATHER,
-    ],
+    category: IconCategory.WEATHER,
     tags: [
       "day",
       "daytime",
@@ -5022,109 +4929,97 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "table",
-    categories: [
-      IconCategory.FINANCE,
-      IconCategory.OFFICE,
-      IconCategory.EDITOR,
-    ],
+    category: IconCategory.FINANCE,
     tags: ["tables", "tabular", "speadsheets", "excel", "grid"],
     Icon: Icon.Table,
   },
   {
     name: "tag",
-    categories: [
-      IconCategory.COMMERCE,
-      IconCategory.DEVELOPMENT,
-      IconCategory.OBJECTS,
-    ],
+    category: IconCategory.COMMERCE,
     tags: ["tags", "hashtag", "labels"],
     Icon: Icon.Tag,
   },
   {
     name: "tag-simple",
-    categories: [
-      IconCategory.COMMERCE,
-      IconCategory.DEVELOPMENT,
-      IconCategory.OBJECTS,
-    ],
+    category: IconCategory.COMMERCE,
     tags: ["tags", "hashtag", "labels"],
     Icon: Icon.TagSimple,
   },
   {
     name: "target",
-    categories: [IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.GAMES,
     tags: ["bullseye", "radar", "archery", "accuracy", "precision"],
     Icon: Icon.Target,
   },
   {
     name: "terminal",
-    categories: [IconCategory.DEVELOPMENT, IconCategory.SYSTEM],
+    category: IconCategory.DEVELOPMENT,
     tags: ["command line", "cli", "bash", "shell", "caret"],
     Icon: Icon.Terminal,
   },
   {
     name: "text",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["typography", "print", "font"],
     Icon: Icon.Text,
   },
   {
     name: "text-align-center",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["typography", "print", "font", "alignment", "centered"],
     Icon: Icon.TextAlignCenter,
   },
   {
     name: "text-align-justify",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["typography", "print", "font", "alignment", "justified"],
     Icon: Icon.TextAlignJustify,
   },
   {
     name: "text-align-left",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["typography", "print", "font", "alignment", "flush left"],
     Icon: Icon.TextAlignLeft,
   },
   {
     name: "text-align-right",
-    categories: [IconCategory.DESIGN, IconCategory.EDITOR],
+    category: IconCategory.OFFICE,
     tags: ["typography", "print", "font", "alignment", "flush right"],
     Icon: Icon.TextAlignRight,
   },
   {
     name: "thumbs-up",
-    categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
+    category: IconCategory.COMMUNICATION,
     tags: ["like", "love", "favorited", "favorites", "emoji"],
     Icon: Icon.ThumbsUp,
   },
   {
     name: "thumbs-down",
-    categories: [IconCategory.COMMUNICATION, IconCategory.PEOPLE],
+    category: IconCategory.COMMUNICATION,
     tags: ["dislike", "hate", "emoji"],
     Icon: Icon.ThumbsDown,
   },
   {
     name: "ticket",
-    categories: [IconCategory.COMMERCE, IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.COMMERCE,
     tags: ["ticketstub", "movie ticket", "entry", "admissions"],
     Icon: Icon.Ticket,
   },
   {
     name: "timer",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.TIME,
     tags: ["clock", "alarm", "schedule", "events", "stopwatch", "sports"],
     Icon: Icon.Timer,
   },
   {
     name: "tote",
-    categories: [IconCategory.COMMERCE, IconCategory.OBJECTS],
+    category: IconCategory.COMMERCE,
     tags: ["suitcases", "valises", "baggage", "tote-bag", "portfolios"],
     Icon: Icon.Tote,
   },
   {
     name: "train",
-    categories: [IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.MAP,
     tags: [
       "vehicles",
       "subway",
@@ -5140,7 +5035,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "train-regional",
-    categories: [IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.MAP,
     tags: [
       "vehicles",
       "subway",
@@ -5158,7 +5053,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "train-simple",
-    categories: [IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.MAP,
     tags: [
       "vehicles",
       "subway",
@@ -5174,7 +5069,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "translate",
-    categories: [IconCategory.COMMUNICATION, IconCategory.SYSTEM],
+    category: IconCategory.COMMUNICATION,
     tags: [
       "translation",
       "languages",
@@ -5186,29 +5081,25 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "trash",
-    categories: [IconCategory.OFFICE, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: ["garbage", "remove", "delete", "destroy", "recycle", "recycling"],
     Icon: Icon.Trash,
   },
   {
     name: "trash-simple",
-    categories: [IconCategory.OFFICE, IconCategory.SYSTEM],
+    category: IconCategory.OFFICE,
     tags: ["garbage", "remove", "delete", "destroy", "recycle", "recycling"],
     Icon: Icon.TrashSimple,
   },
   {
     name: "tray",
-    categories: [
-      IconCategory.OFFICE,
-      IconCategory.COMMUNICATION,
-      IconCategory.SYSTEM,
-    ],
+    category: IconCategory.OFFICE,
     tags: ["inbox", "mailbox", "bin"],
     Icon: Icon.Tray,
   },
   {
     name: "trend-up",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "graphs",
       "graphing",
@@ -5222,7 +5113,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "trend-down",
-    categories: [IconCategory.FINANCE],
+    category: IconCategory.FINANCE,
     tags: [
       "graphs",
       "graphing",
@@ -5236,25 +5127,25 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "triangle",
-    categories: [IconCategory.DESIGN],
+    category: IconCategory.DESIGN,
     tags: ["3", "shapes", "polygons"],
     Icon: Icon.Triangle,
   },
   {
     name: "truck",
-    categories: [IconCategory.COMMERCE, IconCategory.MAP, IconCategory.OBJECTS],
+    category: IconCategory.MAP,
     tags: ["trucks", "cars", "vehicles", "shipping", "delivery"],
     Icon: Icon.Truck,
   },
   {
     name: "twitter-logo",
-    categories: [IconCategory.BRAND, IconCategory.COMMUNICATION],
+    category: IconCategory.BRAND,
     tags: ["logos", "social media", "tweets", "birds"],
     Icon: Icon.TwitterLogo,
   },
   {
     name: "upload",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "saved",
       "saving",
@@ -5270,7 +5161,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "upload-simple",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "saved",
       "saving",
@@ -5286,13 +5177,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "user",
-    categories: [IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: ["person", "users", "profile", "account", "contact", "login"],
     Icon: Icon.User,
   },
   {
     name: "user-gear",
-    categories: [IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: [
       "person",
       "users",
@@ -5306,13 +5197,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "user-plus",
-    categories: [IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: ["person", "users", "profile", "account", "contact", "add", "create"],
     Icon: Icon.UserPlus,
   },
   {
     name: "user-minus",
-    categories: [IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: [
       "person",
       "users",
@@ -5326,13 +5217,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "user-circle",
-    categories: [IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: ["person", "users", "profile", "account", "contact", "login"],
     Icon: Icon.UserCircle,
   },
   {
     name: "user-circle-gear",
-    categories: [IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: [
       "person",
       "users",
@@ -5346,13 +5237,13 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "user-circle-plus",
-    categories: [IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: ["person", "users", "profile", "account", "contact", "add", "create"],
     Icon: Icon.UserCirclePlus,
   },
   {
     name: "user-circle-minus",
-    categories: [IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: [
       "person",
       "users",
@@ -5366,25 +5257,25 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "user-rectangle",
-    categories: [IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: ["person", "users", "profile", "account", "contact", "login"],
     Icon: Icon.UserRectangle,
   },
   {
     name: "user-square",
-    categories: [IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: ["person", "users", "profile", "account", "contact", "login"],
     Icon: Icon.UserSquare,
   },
   {
     name: "users",
-    categories: [IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: ["user", "people", "profiles", "accounts", "contacts"],
     Icon: Icon.Users,
   },
   {
     name: "vibrate",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "audio",
       "volume",
@@ -5398,43 +5289,43 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "video-camera",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["videography", "films", "movies", "recording"],
     Icon: Icon.VideoCamera,
   },
   {
     name: "video-camera-slash",
-    categories: [IconCategory.MEDIA, IconCategory.SYSTEM],
+    category: IconCategory.MEDIA,
     tags: ["videography", "films", "movies", "recording", "disabled"],
     Icon: Icon.VideoCameraSlash,
   },
   {
     name: "voicemail",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.COMMUNICATION,
     tags: ["phonecalls", "missed", "recording", "telephone", "landline"],
     Icon: Icon.Voicemail,
   },
   {
     name: "warning",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: ["alert", "danger", "dangerous", "caution", "errors"],
     Icon: Icon.Warning,
   },
   {
     name: "warning-circle",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: ["alert", "danger", "dangerous", "caution", "errors", "round"],
     Icon: Icon.WarningCircle,
   },
   {
     name: "warning-octagon",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SECURITY,
     tags: ["alert", "danger", "dangerous", "caution", "errors", "8", "eight"],
     Icon: Icon.WarningOctagon,
   },
   {
     name: "watch",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.TIME,
     tags: [
       "times",
       "timer",
@@ -5449,7 +5340,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "wheelchair",
-    categories: [IconCategory.HEALTH, IconCategory.MAP, IconCategory.PEOPLE],
+    category: IconCategory.PEOPLE,
     tags: [
       "handicapped",
       "medical",
@@ -5463,31 +5354,31 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "wifi-high",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["wireless", "internet", "network", "connection", "connectivity"],
     Icon: Icon.WifiHigh,
   },
   {
     name: "wifi-medium",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["wireless", "internet", "network", "connection", "connectivity"],
     Icon: Icon.WifiMedium,
   },
   {
     name: "wifi-low",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["wireless", "internet", "network", "connection", "connectivity"],
     Icon: Icon.WifiLow,
   },
   {
     name: "wifi-none",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["wireless", "internet", "network", "connection", "connectivity"],
     Icon: Icon.WifiNone,
   },
   {
     name: "wifi-slash",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "wireless",
       "internet",
@@ -5501,7 +5392,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "wifi-x",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: [
       "wireless",
       "internet",
@@ -5515,12 +5406,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "x",
-    categories: [
-      IconCategory.DEVELOPMENT,
-      IconCategory.FINANCE,
-      IconCategory.SYSTEM,
-    ],
-
+    category: IconCategory.FINANCE,
     tags: [
       "closed",
       "cancelled",
@@ -5537,23 +5423,19 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
   {
     name: "x-circle",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["closed", "cancelled", "dismissed", "round"],
     Icon: Icon.XCircle,
   },
   {
     name: "x-square",
-    categories: [IconCategory.SYSTEM],
+    category: IconCategory.SYSTEM,
     tags: ["closed", "cancelled", "dismissed"],
     Icon: Icon.XSquare,
   },
   {
     name: "youtube-logo",
-    categories: [
-      IconCategory.BRAND,
-      IconCategory.COMMUNICATION,
-      IconCategory.MEDIA,
-    ],
+    category: IconCategory.BRAND,
     tags: ["logos", "google", "videos", "movies", "social media"],
     Icon: Icon.YoutubeLogo,
   },
