@@ -6308,12 +6308,7 @@ export const icons: ReadonlyArray<IconEntry> = [
   {
     name: "spotify-logo",
     category: IconCategory.BRAND,
-    tags: [
-      "*new*",
-      "music",
-      "player",
-      "streaming",
-    ],
+    tags: ["*new*", "music", "player", "streaming"],
     Icon: Icons.SpotifyLogo,
   },
   {
@@ -7247,6 +7242,4 @@ export const icons: ReadonlyArray<IconEntry> = [
   },
 ];
 
-if (process.env.NODE_ENV === "development") {
-  console.log(`${icons.length} icons`);
-}
+console.log(`${icons.length} icons`);
