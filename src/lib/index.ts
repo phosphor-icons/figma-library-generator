@@ -33,6 +33,6 @@ export enum IconCategory {
 export interface IconEntry {
   name: string;
   category: IconCategory;
-  tags: string[];
+  tags?: string[];
   Icon: Icon;
 }
