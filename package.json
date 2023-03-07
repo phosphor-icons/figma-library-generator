@@ -44,8 +44,8 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "@phosphor-icons/core": "^1.4.9",
-    "phosphor-react": "^1.4.0",
+    "@phosphor-icons/core": "^2.0.2",
+    "@phosphor-icons/react": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
