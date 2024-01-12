@@ -67,9 +67,14 @@ let fontLoaded = false;
                 (c) => c.toUpperCase()
               )}`;
 
+              const name =
+                entry.kebabName === "file-search"
+                  ? "file-magnifying-glass"
+                  : entry.kebabName;
+
               const raw = await (
                 await fetch(
-                  `/raw/${weight}/${entry.kebabName}${
+                  `https://raw.githubusercontent.com/phosphor-icons/core/main/raw/${weight}/${name}${
                     weight === "regular" ? "" : `-${weight}`
                   }.svg`
                 )
