@@ -1,7 +1,13 @@
 import * as Icons from "@phosphor-icons/react";
-import { icons as iconData } from "@phosphor-icons/core";
+import type { Icon } from "@phosphor-icons/react";
+import {
+  icons as iconData,
+  IconEntry as CoreEntry,
+} from "@phosphor-icons/core";
 
-import { IconEntry } from ".";
+export interface IconEntry extends CoreEntry {
+  Icon: Icon;
+}
 
 export const icons: ReadonlyArray<IconEntry> = iconData.map((entry) => ({
   ...entry,

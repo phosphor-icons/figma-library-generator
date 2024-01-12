@@ -1,8 +1,0 @@
-{
-  "name": "Phosphor Library Generator",
-  "id": "895917543205652826",
-  "api": "1.0.0",
-  "main": "dist/code.js",
-  "ui": "dist/ui.html",
-  "editorType": ["figma"]
-}
