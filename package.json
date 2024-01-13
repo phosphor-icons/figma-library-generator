@@ -20,7 +20,7 @@
     "figma",
     "figma-plugin"
   ],
-  "repository": "github:phosphor-icons/phosphor-figma",
+  "repository": "github:phosphor-icons/phosphor-figma-library-generator",
   "private": false,
   "type": "module",
   "main": "src/index.js",
