@@ -21,7 +21,7 @@ const handleMakeVariants = () => {
       acc[category] = entries.map(({ Icon, pascal_name, name, tags }) => ({
         name: pascal_name,
         kebabName: name,
-        tags,
+        tags: tags as string[],
         weights: weights.reduce<Record<string, string>>((ws, wt) => {
           ws[wt] = renderToStaticMarkup(
             <Icon size={32} color="black" weight={wt} />
